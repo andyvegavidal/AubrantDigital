@@ -14,7 +14,7 @@ Go to AubrantDigitalBackend/ProductApi
 Go to AubrantDigitalFrontEnd
 - Execute "npm install"
 - Then "ng serve"
-- Look at the output to open the page where the solution is running
+- Look at the output to open the page where the solution is running (it should be http://localhost:4200/)
 
 **Unit Testing** 
 
