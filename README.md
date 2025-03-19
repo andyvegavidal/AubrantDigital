@@ -1,7 +1,7 @@
 # AubrantDigital
 Take-home Exercise
 
-Steps backend:
+**Steps backend:**
 
 Go to AubrantDigitalBackend/ProductApi
 - Execute "dotnet build" command
@@ -9,7 +9,12 @@ Go to AubrantDigitalBackend/ProductApi
 - Solution should be listening through http://localhost:5172/ 
 - http://localhost:5172/swagger/index.html for documentation
 
-Steps frontend:
+**Unit Testing** 
+
+Go to AubrantDigitalBackend/ProductApi.test
+- Execute "dotnet test" command
+
+**Steps frontend:**
 
 Go to AubrantDigitalFrontEnd
 - Execute "npm install"
