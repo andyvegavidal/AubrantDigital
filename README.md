@@ -9,14 +9,14 @@ Go to AubrantDigitalBackend/ProductApi
 - Solution should be listening through http://localhost:5172/ 
 - http://localhost:5172/swagger/index.html for documentation
 
-**Unit Testing** 
-
-Go to AubrantDigitalBackend/ProductApi.test
-- Execute "dotnet test" command
-
 **Steps frontend:**
 
 Go to AubrantDigitalFrontEnd
 - Execute "npm install"
 - Then "ng serve"
 - Look at the output to open the page where the solution is running
+
+**Unit Testing** 
+
+Go to AubrantDigitalBackend/ProductApi.test
+- Execute "dotnet test" command
