@@ -2,6 +2,7 @@
 Take-home Exercise
 
 Steps backend:
+
 Go to AubrantDigitalBackend/ProductApi
 - Execute "dotnet build" command
 - Then "dotnet run"
@@ -9,6 +10,7 @@ Go to AubrantDigitalBackend/ProductApi
 - http://localhost:5172/swagger/index.html for documentation
 
 Steps frontend:
+
 Go to AubrantDigitalFrontEnd
 - Execute "npm install"
 - Then "ng serve"
