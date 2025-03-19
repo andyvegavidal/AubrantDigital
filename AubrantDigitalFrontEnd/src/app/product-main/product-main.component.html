@@ -1,0 +1,25 @@
+<div class="product-table">
+  <h1>Products</h1>
+  
+  <div *ngIf="products.length === 0">
+    <h1>No products available. Please check back later.</h1>
+  </div>
+
+  <table *ngIf="products.length > 0">
+    <caption>Click on a column header to sort the table in ascending order.</caption>
+    <thead>
+      <tr>
+        <th (click)="sortProducts(SortBy.Name)" [ngClass]="{'sorted': sortBy === SortBy.Name}">Name</th>
+        <th (click)="sortProducts(SortBy.Price)" [ngClass]="{'sorted': sortBy === SortBy.Price}">Price ($)</th>
+        <th (click)="sortProducts(SortBy.Qty)" [ngClass]="{'sorted': sortBy === SortBy.Qty}">Quantity</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products" [ngClass]="{'highlight': product.qty > 3}">
+        <td>{{ product.name }}</td>
+        <td>{{ product.price | currency }}</td>
+        <td>{{ product.qty }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
